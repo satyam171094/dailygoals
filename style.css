@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    min-height: 100vh;
+    width: 60%;
+    background-color: white;
+    margin-left: 20%;
+}
+
+.input h1{
+    text-align: center;
+    line-height: 70px;
+    color: crimson;
+    font-size: 3rem;
+}
+
+.input input{
+    padding: 20px;
+    margin-left: 5%;
+    width: 85%;
+    margin-right: 5%;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+    outline: 1px solid rgb(168, 146, 146);
+    margin-bottom: 30px;
+
+}
+
+.input textarea{
+    padding: 20px;
+    margin-left: 5%;
+    width: 85%;
+    margin-right: 5%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+    outline: 1px solid rgb(168, 146, 146);
+    margin-bottom: 30px;
+}
+.input > button{
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 50px;
+}
+
+.input > button:hover{
+    background-color: rgb(48, 43, 43);
+    color: crimson;
+
+}
+
+.output{
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.output p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.output >span{
+    margin-right: 3%;
+    font-size: 1.2rem;
+    line-height: 35px;
+    color: cadetblue;
+}
+
+.output > button{
+    padding: 10px;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.output > button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (max-width:540px) {
+    .container{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+ .input input{
+    width: 80%;
+    margin-top: 4px;
+ }
+ .input textarea{
+    width: 80%;
+ }
+
+}
